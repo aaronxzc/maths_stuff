@@ -15,4 +15,5 @@ def pi_estimate(iterations,i,n,S):
         print(P_D)
         pi_estimate(iterations, i+1, n*2, new_S)
 
-# comment
+iterations = int(input("How many iterations? "))
+pi_estimate(iterations,0,6,1)
